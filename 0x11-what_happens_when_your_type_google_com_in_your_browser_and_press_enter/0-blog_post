@@ -1,0 +1,27 @@
+What Happens When You Type "google.com" in Your Browser and Press Enter
+Have you ever wondered what happens behind the scenes when you type "google.com" in your browser and hit Enter? In this article, we will unravel the intricacies of the web stack and delve into the various stages involved in processing your request, including DNS resolution, TCP/IP communication, firewalls, HTTPS/SSL encryption, load balancing, web servers, application servers, and databases. So, let's embark on this fascinating journey and explore the inner workings of the web!
+DNS Request
+The first step in our journey begins with a DNS (Domain Name System) request. When you enter "google.com" in your browser, it must translate the human-readable domain name into an IP address. The browser sends a DNS request to a DNS server, typically provided by your ISP or a third-party DNS service. The DNS server looks up the IP address associated with the domain and returns it to the browser.
+TCP/IP Communication
+Armed with the IP address obtained from the DNS server, the browser initiates a TCP/IP (Transmission Control Protocol/Internet Protocol) connection to establish communication with the server hosting the website. TCP ensures reliable and ordered delivery of data packets over the internet, while IP handles routing these packets across networks.
+Firewall
+The request might encounter firewalls before reaching the web server, which acts as a protective barrier between the client and the server. Firewalls enforce security policies and examine incoming requests to filter out potentially malicious or unauthorized traffic. If the request passes through the firewall, it proceeds to the next stage.
+HTTPS/SSL Encryption
+In an era where security is paramount, most websites adopt HTTPS (Hypertext Transfer Protocol Secure) as the default protocol. When you connect to a website using HTTPS, your browser establishes an SSL (Secure Sockets Layer) or TLS (Transport Layer Security) encrypted connection with the server. This encryption ensures the confidentiality and integrity of the data exchanged between the client and the server.
+Load Balancer
+Upon successful connection establishment, the request might encounter a load balancer. Load balancers distribute incoming requests across multiple web servers to ensure optimal resource utilization and prevent any single server from becoming overwhelmed. They monitor server health, distribute traffic based on predefined algorithms, and help scale applications horizontally.
+Web Server
+Now the request reaches the web server responsible for serving the website's static files, such as HTML, CSS, and images. The web server processes the request, retrieves the appropriate files from its file system, and sends them back to the browser as an HTTP response. Popular web servers include Apache HTTP Server, Nginx, and Microsoft IIS.
+Application Server
+If the website contains dynamic content or requires server-side processing, the web server may delegate certain requests to an application server. The application server hosts the website's business logic, executes code, interacts with databases or external services, and generates dynamic content to be sent back to the web server for further processing.
+Database
+In many cases, websites rely on databases to store and retrieve data. The application server communicates with the database to fetch or update information requested by the user. Databases such as MySQL, PostgreSQL, or MongoDB handle;
+storing
+retrieving
+managing structured or unstructured data, ensuring data consistency and durability.
+Conclusion
+The journey of a web request from the moment you hit Enter to the delivery of the website involves a complex orchestration of various components in the web stack. Understanding these underlying mechanisms helps us appreciate the intricate infrastructure that powers the web. From DNS resolution to load balancing, from web servers to application servers and databases, each stage plays a crucial role in delivering the content you see in your browser. So, the next time you navigate to a website, remember the intricate journey that unfolds behind the scenes.
+Blog Post URL: [Insert the URL of your blog post on Medium or LinkedIn]
+
+
+
